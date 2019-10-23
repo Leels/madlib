@@ -12,17 +12,17 @@ $(document).ready(function() {
     var housingTypeInput = $("input#housingType").val();
     var animalInput = $("input#animal").val();
 
-    $(".date").append(dateInput);
-    $(".name").append(nameInput);
-    $(".exclamation").append(exclamationInput);
-    $(".location").append(locationInput);
-    $(".adjetive").append(adjetiveInput);
-    $(".celebrity1").append(celebrity1Input);
-    $(".celebrity2").append(celebrity2Input);
-    $(".amount").append(amountInput);
-    $(".number").append(numberInput);
-    $(".housingType").append(housingTypeInput);
-    $(".animal").append(animalInput);
+    $(".date").text(dateInput);
+    $(".name").text(nameInput);
+    $(".exclamation").text(exclamationInput);
+    $(".location").text(locationInput);
+    $(".adjetive").text(adjetiveInput);
+    $(".celebrity1").text(celebrity1Input);
+    $(".celebrity2").text(celebrity2Input);
+    $(".amount").text(amountInput);
+    $(".number").text(numberInput);
+    $(".housingType").text(housingTypeInput);
+    $(".animal").text(animalInput);
 
     $("#letter").show();
 
